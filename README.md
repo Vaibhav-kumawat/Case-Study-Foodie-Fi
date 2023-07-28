@@ -25,6 +25,7 @@ When customers cancel their Foodie-Fi service - they will have a churn plan reco
 |   3    | pro annual	   |  199    |
 |   4    | churn	        |  null   |
 |--------|---------------|---------|
+
 **Table 2: subscriptions**
 Customer subscriptions show the exact date where their specific plan_id starts.
 If customers downgrade from a pro plan or cancel their subscription - the higher plan will remain in place until the period is over - the start_date in the subscriptions table will reflect the date that the actual plan changes.
